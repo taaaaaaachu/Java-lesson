@@ -1,7 +1,7 @@
 package book;
 
 /**
- * HelloWorld
+ * HelloWorld book practice
  */
 public class HelloWorld {
 
