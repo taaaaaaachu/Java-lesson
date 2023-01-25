@@ -4,13 +4,18 @@ package book;
  * Main
  */
 public class Main {
-    public static void main(String[] args) {
-        add(100, 20);
-        add(200, 50);
+
+    public static void incArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            array[i]++;
+        }
     }
 
-    public static void add(int x, int y) {
-        int ans = x + y;
-        System.out.println(x + "+" + y + "=" + ans);
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3};
+        incArray(array);
+        for (int i : array) {
+            System.out.println(i);
+        }
     }
 }
