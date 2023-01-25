@@ -6,14 +6,12 @@ package book;
 public class Main {
 
     public static void main(String[] args) {
-        int[] numbers = {3, 4, 9};
-        int input = new java.util.Scanner(System.in).nextInt();
-        for (int i : numbers) {
-            if (input == i) {
-                System.out.println("アタリ！");
-            } else {
-                
-            }
-        }
+        System.out.println("メソッドを呼び出します");
+        hello();
+        System.out.println("メソッドの呼び出しが終わりました。");
+    }
+
+    public static void hello() {
+        System.out.println("こんんちは！");
     }
 }
