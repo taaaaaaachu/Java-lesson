@@ -21,7 +21,7 @@ public class Cleric {
     }
 
     public int pray(int sec) {
-        System.out.println(this.name + "は" + sec "秒間天に祈った！");
+        System.out.println(this.name + "は" + sec + "秒間天に祈った！");
         int recovery = new Random().nextInt(3) + sec;
 
         int recoverActual = Math.min(this.MAX_HP - this.hp, recovery);

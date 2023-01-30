@@ -5,11 +5,11 @@ package book;
  */
 public class CalcLogic {
 
-    public static int tasu(int a, int b) {
+    public static int plus(int a, int b) {
         return (a + b);
     }
 
-    public static int hiku(int a, int b) {
+    public static int max(int a, int b) {
         return (a - b);
     }
 }
